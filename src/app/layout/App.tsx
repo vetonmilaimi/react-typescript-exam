@@ -54,6 +54,8 @@ import StaffDetails from "../../features/dashboard/staffs/StaffDetails";
 import AccountForm from "../../features/account/AccountForm";
 const App: React.FC = () => {
   const location = useLocation();
+  console.log(location);
+  
   return (
     <>
       <Container style={{ marginTop: "6em" }}>
